@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    margin-top: 3px;
+    height: 80px;
+    position: fixed;
+}
+.navbar ul{
+    background-color: black;
+    float: right;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.navbar ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 66px;
+    font-size: 12px;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/**first section  fsection**/
+.fsection{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.fsection h1{
+    font-size: 50px;
+    text-align: center;
+}
+.fsection p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/**second section  ssection**/
+.ssection{
+    margin-top: 10px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+.ssection h1{
+    font-size: larger;
+}
+.ssection h2{
+    font-size: 45px;
+}
+.ssection p{
+ font-size: 15px;   
+}
+.ssection img{
+    height: 400px;
+    width: 600px;
+}
+
+/**third section  tsection**/
+.tsection{
+    margin-top: 7%;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    gap: 15%;
+}
+.tsection h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.tsection h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.tsection p{
+    font-size: 15px;
+}
+.text{
+    margin-top: 20%;
+    margin-left: 10%;
+    
+}
+
+/**fourth section  fthsection**/
+.fthsection{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+#hi{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    gap: 13px;
+    padding: 10px;
+}
+.hi{
+    background-color: white;
+    padding: 20px;
+    height: 80vh;
+    margin-top: 35px;
+}
+#hi img{
+    height: 60vh;
+    width: 100%;
+}
+.fthsection div{
+    width: 30%;
+}
+.hi h1{
+    font-size: 38px;
+}
+#footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke;
+    gap: 10%;
+    border-bottom: 2px solid black;
+}
+
+/**Footer**/
+.footer ul{
+    list-style-type: none;
+    font-size: 10px;
+    padding: 5px;
+}
+.footer li{
+    padding: 5px;
+    margin-top: 0px;
+}
+.footer p{
+    font-size: 10px;
+}
