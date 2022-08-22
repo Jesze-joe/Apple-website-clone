@@ -5,26 +5,35 @@
 }
 .navbar{
     margin-top: 3px;
-    height: 80px;
+    height: 50px;
     position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
 }
 .navbar ul{
-    background-color: black;
-    float: right;
     height: 50px;
     display: flex;
     align-items: center;
-    max-width: 100%;
+    justify-content: center;
+    list-style-type: none;
 }
-.navbar ul a{
-    color: whitesmoke;
+.navbar ul li{
+    color: white;
+    opacity: 60%;
     text-decoration: none;
-    padding: 66px;
     font-size: 12px;
+    padding: 50px;
+}
+.navbar ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    opacity: 60%;
 }
 a{
     list-style-type: none;
     text-decoration: none;
+    color: rgb(70, 143, 252);
 }
 
 /**first section  fsection**/
@@ -56,6 +65,9 @@ a{
 .ssection h2{
     font-size: 45px;
 }
+.ssection h3{
+    font-size: 50px;
+}
 .ssection p{
  font-size: 15px;   
 }
@@ -76,7 +88,7 @@ a{
     gap: 15%;
 }
 .tsection h1{
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 10px;
 }
 .tsection h2{
@@ -108,16 +120,19 @@ a{
     width: 98%;
     gap: 13px;
     padding: 10px;
+    overflow: hidden;
 }
 .hi{
     background-color: white;
-    padding: 20px;
+    overflow: hidden;
+
     height: 80vh;
     margin-top: 35px;
 }
 #hi img{
-    height: 60vh;
-    width: 100%;
+    overflow: hidden;
+    height: 50vh;
+    width: 110%;
 }
 .fthsection div{
     width: 30%;
@@ -125,25 +140,64 @@ a{
 .hi h1{
     font-size: 38px;
 }
-#footer{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    background-color: whitesmoke;
-    gap: 10%;
-    border-bottom: 2px solid black;
-}
 
 /**Footer**/
+.footer{
+    background-color: whitesmoke;
+}
+#list{
+    width: 80%;
+    margin-left: 14%;
+    display: flex;
+    gap: 15%;
+}
 .footer ul{
     list-style-type: none;
-    font-size: 10px;
-    padding: 5px;
+    font-size: 12px;
+}
+.footer li:hover{
+    border-bottom: 1px solid black;
+    width: fit-content;
 }
 .footer li{
-    padding: 5px;
-    margin-top: 0px;
+    padding: 8px;
+    color: black;
+    opacity: 60%;
 }
 .footer p{
     font-size: 10px;
+    margin-left: 1%;
+}
+.linetop{
+    border-top: 1px solid gray;
+    width: 75%;
+    margin-top: 5px;
+    margin-left: 15%;
+}
+.footertxt{
+    display: flex;
+    padding: 20px;
+    gap: 5%;
+    padding-left: 14%;
+    padding-bottom: 3%;
+}
+.footertxt p{
+    font-size: 12px;
+    opacity: 60%;
+}
+
+.line a:hover{
+    border-bottom: 1px solid black;
+}
+.line a{
+    color: rgb(70, 143, 252);
+}
+.line{
+    margin-left: 14%;
+    margin-top: 10px;
+}
+.line p{
+    font-size: 12px;}
+.onetxt{
+    padding-left: 34%;
 }
